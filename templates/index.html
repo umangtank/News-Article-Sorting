@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <title> News article Sorting</title>
+</head>
+<style>
+    h3 {
+        font-family: monospace;
+        font-size: xx-large;
+    }
+    .submit {
+        background-color: firebrick;
+        color: white;
+        width: 125px;
+        height: 45px;
+        font-size: 20px;
+        border-radius: 10px;
+        border-width: 5px;
+        border-color: white;
+    }
+
+    .submit:hover {
+        background-color: white;
+        color: firebrick;
+        width: 125px;
+        border-radius: 10px;
+        height: 45px;
+    }
+
+    textarea:focus,
+    input:focus {
+        color: blue;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .text {
+        color: tomato;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: whitesmoke;
+    }
+
+    body {
+  background-color: lightgreen;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+</style>
+
+<body align="center">
+    <h3 class="text">News Articles Sorting</h3>
+    <form action="/submit" method="POST">
+        <h3></h3>
+        <textarea name="article" cols="93" rows="23" placeholder="Write your News here.."
+            required></textarea><br><br><br><br>
+        <input type="submit" class="submit" value="Get Analysis">
+    </form>
+</body>
+
+</html>
