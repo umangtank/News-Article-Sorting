@@ -6,57 +6,9 @@
         News Article
     </title>
 </head>
-<style>
-    body {
-        margin: 200px;
-        background-color: whitesmoke;
-    }
+<link rel="stylesheet" href="static/style.css">
 
-    table {
-        align-self: center;
-        width: 300px;
-        height: 200px;
-        border-color:blue;
-    }
-
-    .color {
-        color: red;
-        font-family: cursive;
-        font-size: medium;
-    }
-
-    .hated {
-        color: red;
-    }
-
-    .not_hated {
-        color: green;
-    }
-
-    img {
-        width: 60px;
-        height: 60px;
-    }
-
-    .submit {
-        background-color:darksalmon;
-        color: white;
-        width: 150px;
-        height: 35px;
-        font-size: 20px;
-        border-radius: 10px;
-    }
-
-    .submit:hover {
-        background-color: white;
-        color: dodgerblue;
-        width: 150px;
-        border-radius: 10px;
-        height: 35px;
-    }
-</style>
-
-<body align="center">
+<body align="center" class="wbody">
 
     <table align="center" border="20px">
         <tr>
@@ -67,23 +19,23 @@
         <tr>
             {% if score[0] == "business" %}
             <td>
-                <h1 class="hated">business</h1>
+                <h1 class="news">business</h1>
             </td>
             {% elif score[0] == "entertainment" %}
             <td>
-                <h1 class="not_hated">entertainment</h1>
+                <h1 class="news">entertainment</h1>
             </td>
             {% elif score[0] == "politics" %}
             <td>
-                <h1 class="not_hated">politics</h1>
+                <h1 class="news">politics</h1>
             </td>
             {% elif score[0] == "sport" %}
             <td>
-                <h1 class="not_hated">sport</h1>
+                <h1 class="news">sport</h1>
             </td>
             {% else %}
             <td>
-                <h1 class="not_hated">tech</h1>
+                <h1 class="news">tech</h1>
             </td>
             {% endif %}
         </tr>
