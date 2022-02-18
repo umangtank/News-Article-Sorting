@@ -1,0 +1,79 @@
+[2022-02-18 16:34:01,958: INFO: app] Server is running
+[2022-02-18 16:34:01,958: INFO: app] Start predicting
+[2022-02-18 16:34:01,987: WARNING: _internal]  * Debugger is active!
+[2022-02-18 16:34:02,037: INFO: _internal]  * Debugger PIN: 708-719-456
+[2022-02-18 16:34:02,382: INFO: _internal]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2022-02-18 16:34:41,489: INFO: app] Submit Page
+[2022-02-18 16:34:41,497: INFO: app] Text: In the end it became one of the most uncomfortable, unpleasant moments of sport in recent memory.
+
+After a week of outrage following a failed drugs test, 15-year-old Russian figure skater Kamila Valieva left the ice in tears as her controversial Olympics came to a distressing conclusion.
+
+"It should never have happened," said former Olympic champion Robin Cousins, who himself was overcome by emotion during his commentary.
+[2022-02-18 16:34:41,576: INFO: app] Database Connection
+[2022-02-18 16:34:41,641: INFO: app] Preprocessed Text: end becam one uncomfort , unpleas moment sport recent memori . week outrag follow fail drug test , 15-year-old russian figur skater kamila valieva left ice tear controversi olymp came distress conclus . `` never happen , '' said former olymp champion robin cousin , wa overcom emot dure hi commentari .
+[2022-02-18 16:34:41,657: INFO: app] Prediction: ['sport']
+[2022-02-18 16:34:41,657: INFO: app] rendering welcome.html
+[2022-02-18 16:34:41,669: INFO: _internal] 127.0.0.1 - - [18/Feb/2022 16:34:41] "POST /submit HTTP/1.1" 200 -
+[2022-02-18 16:34:41,737: INFO: _internal] 127.0.0.1 - - [18/Feb/2022 16:34:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2022-02-18 16:38:13,211: INFO: _internal]  * Detected change in 'C:\\Users\\umang\\Desktop\\Ineuron\\Internship\\BBC_NewsArticles_Sorting\\app.py', reloading
+[2022-02-18 16:38:20,054: INFO: app] Server is running
+[2022-02-18 16:38:20,054: INFO: app] Start predicting
+[2022-02-18 16:38:20,075: WARNING: _internal]  * Debugger is active!
+[2022-02-18 16:38:20,097: INFO: _internal]  * Debugger PIN: 708-719-456
+[2022-02-18 16:38:20,273: INFO: _internal]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2022-02-18 16:41:29,778: INFO: _internal]  * Detected change in 'C:\\Users\\umang\\Desktop\\Ineuron\\Internship\\BBC_NewsArticles_Sorting\\app.py', reloading
+[2022-02-18 16:41:38,409: INFO: app] Server is running
+[2022-02-18 16:41:38,410: INFO: app] Start predicting
+[2022-02-18 16:41:38,432: WARNING: _internal]  * Debugger is active!
+[2022-02-18 16:41:38,463: INFO: _internal]  * Debugger PIN: 708-719-456
+[2022-02-18 16:41:38,753: INFO: _internal]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2022-02-18 16:41:43,398: INFO: app] Submit Page
+[2022-02-18 16:41:43,401: INFO: app] Text: In the end it became one of the most uncomfortable, unpleasant moments of sport in recent memory.
+
+After a week of outrage following a failed drugs test, 15-year-old Russian figure skater Kamila Valieva left the ice in tears as her controversial Olympics came to a distressing conclusion.
+
+"It should never have happened," said former Olympic champion Robin Cousins, who himself was overcome by emotion during his commentary.
+[2022-02-18 16:41:43,528: INFO: app] Database Connection
+[2022-02-18 16:41:43,605: INFO: app] Preprocessed Text: end becam one uncomfort , unpleas moment sport recent memori . week outrag follow fail drug test , 15-year-old russian figur skater kamila valieva left ice tear controversi olymp came distress conclus . `` never happen , '' said former olymp champion robin cousin , wa overcom emot dure hi commentari .
+[2022-02-18 16:41:43,637: INFO: _internal] 127.0.0.1 - - [18/Feb/2022 16:41:43] "[35m[1mPOST /submit HTTP/1.1[0m" 500 -
+[2022-02-18 16:41:43,757: INFO: _internal] 127.0.0.1 - - [18/Feb/2022 16:41:43] "GET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2022-02-18 16:41:43,759: INFO: _internal] 127.0.0.1 - - [18/Feb/2022 16:41:43] "GET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2022-02-18 16:41:43,852: INFO: _internal] 127.0.0.1 - - [18/Feb/2022 16:41:43] "GET /submit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[2022-02-18 16:41:43,878: INFO: _internal] 127.0.0.1 - - [18/Feb/2022 16:41:43] "GET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2022-02-18 16:41:44,093: INFO: _internal] 127.0.0.1 - - [18/Feb/2022 16:41:44] "GET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2022-02-18 16:42:38,853: INFO: _internal]  * Detected change in 'C:\\Users\\umang\\Desktop\\Ineuron\\Internship\\BBC_NewsArticles_Sorting\\app.py', reloading
+[2022-02-18 16:42:45,887: INFO: app] Server is running
+[2022-02-18 16:42:45,889: INFO: app] Start predicting
+[2022-02-18 16:42:45,909: WARNING: _internal]  * Debugger is active!
+[2022-02-18 16:42:45,937: INFO: _internal]  * Debugger PIN: 708-719-456
+[2022-02-18 16:42:46,205: INFO: _internal]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2022-02-18 16:42:53,623: INFO: app] Submit Page
+[2022-02-18 16:42:53,627: INFO: app] Text: In the end it became one of the most uncomfortable, unpleasant moments of sport in recent memory.
+
+After a week of outrage following a failed drugs test, 15-year-old Russian figure skater Kamila Valieva left the ice in tears as her controversial Olympics came to a distressing conclusion.
+
+"It should never have happened," said former Olympic champion Robin Cousins, who himself was overcome by emotion during his commentary.
+[2022-02-18 16:42:53,681: INFO: app] Database Connection
+[2022-02-18 16:42:53,738: INFO: app] Preprocessed Text: end becam one uncomfort , unpleas moment sport recent memori . week outrag follow fail drug test , 15-year-old russian figur skater kamila valieva left ice tear controversi olymp came distress conclus . `` never happen , '' said former olymp champion robin cousin , wa overcom emot dure hi commentari .
+[2022-02-18 16:42:53,757: INFO: app] Prediction: ['sport']
+[2022-02-18 16:42:53,757: INFO: app] rendering welcome.html
+[2022-02-18 16:42:53,770: INFO: _internal] 127.0.0.1 - - [18/Feb/2022 16:42:53] "POST /submit HTTP/1.1" 200 -
+[2022-02-18 16:42:53,829: INFO: _internal] 127.0.0.1 - - [18/Feb/2022 16:42:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2022-02-18 16:43:35,634: INFO: _internal]  * Detected change in 'C:\\Users\\umang\\Desktop\\Ineuron\\Internship\\BBC_NewsArticles_Sorting\\app.py', reloading
+[2022-02-18 16:43:43,881: INFO: app] Server is running
+[2022-02-18 16:43:43,881: INFO: app] Start predicting
+[2022-02-18 16:43:43,902: WARNING: _internal]  * Debugger is active!
+[2022-02-18 16:43:43,925: INFO: _internal]  * Debugger PIN: 708-719-456
+[2022-02-18 16:43:44,215: INFO: _internal]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2022-02-18 16:43:46,837: INFO: app] Submit Page
+[2022-02-18 16:43:46,839: INFO: app] Text: In the end it became one of the most uncomfortable, unpleasant moments of sport in recent memory.
+
+After a week of outrage following a failed drugs test, 15-year-old Russian figure skater Kamila Valieva left the ice in tears as her controversial Olympics came to a distressing conclusion.
+
+"It should never have happened," said former Olympic champion Robin Cousins, who himself was overcome by emotion during his commentary.
+[2022-02-18 16:43:46,910: INFO: app] Database Connection
+[2022-02-18 16:43:46,977: INFO: app] Preprocessed Text: end becam one uncomfort , unpleas moment sport recent memori . week outrag follow fail drug test , 15-year-old russian figur skater kamila valieva left ice tear controversi olymp came distress conclus . `` never happen , '' said former olymp champion robin cousin , wa overcom emot dure hi commentari .
+[2022-02-18 16:43:46,980: INFO: app] Prediction: ['sport']
+[2022-02-18 16:43:46,981: INFO: app] rendering welcome.html
+[2022-02-18 16:43:46,989: INFO: _internal] 127.0.0.1 - - [18/Feb/2022 16:43:46] "POST /submit HTTP/1.1" 200 -
+[2022-02-18 16:43:47,072: INFO: _internal] 127.0.0.1 - - [18/Feb/2022 16:43:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -

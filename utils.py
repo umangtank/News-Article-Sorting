@@ -1,9 +1,7 @@
 from nltk.stem import PorterStemmer
 from nltk.corpus import stopwords
 import nltk
-import pymongo
-
-
+import pymongo,logging,os
 
 def preprocess(Text):
     Text = nltk.word_tokenize(Text)
@@ -21,4 +19,11 @@ def DatabaseConn(News):
 
     record = {"News" : News}
     collection.insert_one(record)
+
+def log():
+    logging_str = "[%(asctime)s: %(levelname)s: %(module)s] %(message)s"
+    log_dir = "running_logs/general_logs"
+    os.makedirs(log_dir, exist_ok=True)
+    logging.basicConfig(filename = os.path.join(log_dir,"running_logs.log"), level=logging.INFO, format=logging_str)
+    
     
