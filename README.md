@@ -1,8 +1,40 @@
-# BBC_NewsArticles_Sorting
+# News Articles Sorting
 
-<b><i>Nowadays on the Internet there are a lot of sources that generate immense amounts of
-daily news. In addition, the demand for information by users has been growing
-continuously, so it is crucial that the news is classified to allow users to access the
-information of interest quickly and effectively. This way, the machine learning model for
-automated news classification could be used to identify topics of untracked news and/or
-make individual suggestions based on the user’s prior interests.</b></i>
+## Description
+<b>This is a NLP based ML web application which is used to classify the News Articles.</b><br> <br>
+
+## Objectives
+This web application is created for News Article sorting, Nowadays there are many sources to generate news which are in huge amount of data, so this app will help the user to sort the news according to users choice.<br><br>
+
+## Life Cycle of Machine Learning Project
+Life Cycle of implementing machine learning application.
+- Gathering the Data
+- Data Preparation
+- Data Preprocessing
+- Create Model
+- Evaluate Model
+- Deploy the model
+<br>
+
+## Dataset
+The dataset that is used in this project has taken from the Kaggle. link is below.
+
+- [datset](https://www.kaggle.com/c/learn-ai-bbc/data)
+
+## Homepage (Responsive)
+<img src = "image\Home2.png" width = "200px">
+<img src = "image\Home3.png" width = "650px">
+
+<br><br>
+
+## 🛠️ Requirements
+* Python (Programming Language version 3.7+)
+* Flask (Python Backend Framework)
+* sklearn (Machine Learning Library)
+* git (Version Control Distribution)
+* nltk (python library for NLP)
+* pandas (Python Library for Data operations)
+* NumPy (Python Library for Numerical operations)
+* VS code (IDE)
+* Azure (Cloud platform)
+

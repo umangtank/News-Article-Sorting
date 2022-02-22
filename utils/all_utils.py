@@ -22,7 +22,7 @@ def DatabaseConn(News):
 
 def log():
     logging_str = "[%(asctime)s: %(levelname)s: %(module)s] %(message)s"
-    log_dir = "running_logs/general_logs"
+    log_dir = "running_logs/general_logs"   
     os.makedirs(log_dir, exist_ok=True)
     logging.basicConfig(filename = os.path.join(log_dir,"running_logs.log"), level=logging.INFO, format=logging_str)
     

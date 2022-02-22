@@ -1,10 +1,10 @@
 from flask import Flask,render_template,request
 import re
 import pickle,logging,os
-from utils import preprocess,DatabaseConn,log
+from utils.all_utils import preprocess,DatabaseConn,log
 
 app = Flask(__name__)
-
+ 
 classifier = pickle.load(open('model/model.pkl', 'rb'))
 cv = pickle.load(open('model/transform.pkl','rb'))
 
@@ -20,13 +20,11 @@ def submit():
     if request.method == "POST":
 
         Text = request.form['article']
-
         logging.info("Text: " + Text)
         DatabaseConn(News=Text)
         
         logging.info("Database Connection")
         preprocessed_text = preprocess(Text)
-        
         logging.info("Preprocessed Text: " + preprocessed_text)
         vect = cv.transform([preprocessed_text])
         my_prediction = classifier.predict(vect)
@@ -40,4 +38,4 @@ if __name__ == '__main__':
     log()
     logging.info("Server is running")
     logging.info("Start predicting")
-    app.run(debug=True)
+    app.run(debug=True) 
