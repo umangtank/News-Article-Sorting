@@ -23,7 +23,7 @@ The dataset that is used in this project has taken from the Kaggle. link is belo
 
 ## Homepage (Responsive)
 <img src = "image\Home2.png" width = "200px">
-<img src = "image\Home3.png" width = "650px">
+<img src = "image\Home3.png" width = "600px">
 
 <br><br>
 
@@ -36,5 +36,29 @@ The dataset that is used in this project has taken from the Kaggle. link is belo
 * pandas (Python Library for Data operations)
 * NumPy (Python Library for Numerical operations)
 * VS code (IDE)
-* Azure (Cloud platform)
+* Azure (Cloud platform)<br><br>
+
+#### How to run this code...
+- Create virtual environment
+```bash
+conda create -n myenv python=3.8
+```
+- Activate the environment
+```bash
+conda activate myenv
+```
+- Install the packages
+```bash
+pip install -r requirements.txt
+```
+- Run the app
+```bash
+python app.py
+```
+<br>
+
+## Authors
+Umang Tank - [portfolio](https://umangtank.herokuapp.com/) ... [Linkedin](https://www.linkedin.com/in/umangtank)
+
+## If you like this project, please do give the star. If you have any suggestions or issues, please drop me a message.
 
