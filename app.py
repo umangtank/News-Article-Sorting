@@ -1,12 +1,17 @@
 from flask import Flask,render_template,request
-import re
 import pickle,logging,os
-from utils.all_utils import preprocess,DatabaseConn,log
+from utils.all_utils import preprocess,DatabaseConn,log,read_config
 
 app = Flask(__name__)
- 
-classifier = pickle.load(open('model/model.pkl', 'rb'))
-cv = pickle.load(open('model/transform.pkl','rb'))
+
+config = read_config()
+
+model = config["model"]["model_dir"]
+model_path = os.path.join(model,config["model"]["model_file"])
+transform_file = os.path.join(model,config["model"]["tfidf_file"])
+
+classifier = pickle.load(open(model_path, 'rb'))
+cv = pickle.load(open(transform_file,'rb'))
 
 
 @app.route('/')
@@ -25,7 +30,6 @@ def submit():
         
         logging.info("Database Connection")
         preprocessed_text = preprocess(Text)
-        logging.info("Preprocessed Text: " + preprocessed_text)
         vect = cv.transform([preprocessed_text])
         my_prediction = classifier.predict(vect)
 

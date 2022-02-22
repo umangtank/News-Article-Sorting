@@ -1,0 +1,11 @@
+[2022-02-22 22:39:58,022: INFO: app] Submit Page
+[2022-02-22 22:39:58,023: INFO: app] Text: Underlining the achievements of the BJP government and handling of the Covid-19 crisis, PM Modi said, "Our govt doesn't leave anyone in a time of crisis. We opened up 'Anna Ke Bhandaar' during the Covid-19 crisis, 80 crore people have been getting free ration for the last 2 years... Tough time calls for a tough leader."
+
+
+[2022-02-22 22:39:58,049: INFO: app] Database Connection
+[2022-02-22 22:39:58,049: INFO: all_utils] Tokenized Text: ['Underlining', 'the', 'achievements', 'of', 'the', 'BJP', 'government', 'and', 'handling', 'of', 'the', 'Covid-19', 'crisis', ',', 'PM', 'Modi', 'said', ',', '``', 'Our', 'govt', 'does', "n't", 'leave', 'anyone', 'in', 'a', 'time', 'of', 'crisis', '.', 'We', 'opened', 'up', "'Anna", 'Ke', 'Bhandaar', "'", 'during', 'the', 'Covid-19', 'crisis', ',', '80', 'crore', 'people', 'have', 'been', 'getting', 'free', 'ration', 'for', 'the', 'last', '2', 'years', '...', 'Tough', 'time', 'calls', 'for', 'a', 'tough', 'leader', '.', "''"]
+[2022-02-22 22:39:58,077: INFO: all_utils] Preprocessed Text: underlin achiev bjp govern handl covid-19 crisi , pm modi said , `` govt doe n't leav anyon time crisi . open 'anna ke bhandaar ' dure covid-19 crisi , 80 crore peopl get free ration last 2 year ... tough time call tough leader . ''
+[2022-02-22 22:39:58,079: INFO: app] Prediction: ['sport']
+[2022-02-22 22:39:58,080: INFO: app] rendering welcome.html
+[2022-02-22 22:39:58,080: INFO: _internal] 127.0.0.1 - - [22/Feb/2022 22:39:58] "POST /submit HTTP/1.1" 200 -
+[2022-02-22 22:39:58,118: INFO: _internal] 127.0.0.1 - - [22/Feb/2022 22:39:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -

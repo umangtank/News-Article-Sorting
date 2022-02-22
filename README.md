@@ -23,7 +23,7 @@ The dataset that is used in this project has taken from the Kaggle. link is belo
 
 ## Homepage (Responsive)
 <img src = "image\Home2.png" width = "200px">
-<img src = "image\Home3.png" width = "500px">
+<img src = "image\Home3.png" width = "700px">
 
 <br><br>
 

@@ -1,7 +1,0 @@
-[2022-02-22 16:58:22,348: INFO: _internal]  * Detected change in 'C:\\Users\\umang\\Desktop\\Ineuron\\Internship\\BBC_NewsArticles_Sorting\\app.py', reloading
-[2022-02-22 16:58:22,736: INFO: _internal]  * Restarting with stat
-[2022-02-22 16:58:33,852: INFO: app] Server is running
-[2022-02-22 16:58:33,854: INFO: app] Start predicting
-[2022-02-22 16:58:33,896: WARNING: _internal]  * Debugger is active!
-[2022-02-22 16:58:33,934: INFO: _internal]  * Debugger PIN: 708-719-456
-[2022-02-22 16:58:34,652: INFO: _internal]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
