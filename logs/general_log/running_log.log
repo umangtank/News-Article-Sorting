@@ -9,3 +9,24 @@
 [2022-02-22 22:39:58,080: INFO: app] rendering welcome.html
 [2022-02-22 22:39:58,080: INFO: _internal] 127.0.0.1 - - [22/Feb/2022 22:39:58] "POST /submit HTTP/1.1" 200 -
 [2022-02-22 22:39:58,118: INFO: _internal] 127.0.0.1 - - [22/Feb/2022 22:39:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2022-02-23 13:47:30,227: INFO: app] Server is running
+[2022-02-23 13:47:30,228: INFO: app] Start predicting
+[2022-02-23 13:47:30,296: INFO: _internal]  * Restarting with stat
+[2022-02-23 13:47:38,216: INFO: app] Server is running
+[2022-02-23 13:47:38,217: INFO: app] Start predicting
+[2022-02-23 13:47:38,239: WARNING: _internal]  * Debugger is active!
+[2022-02-23 13:47:38,269: INFO: _internal]  * Debugger PIN: 708-719-456
+[2022-02-23 13:47:38,604: INFO: _internal]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2022-02-23 13:47:53,790: INFO: app] Home Page
+[2022-02-23 13:47:53,798: INFO: _internal] 127.0.0.1 - - [23/Feb/2022 13:47:53] "GET / HTTP/1.1" 200 -
+[2022-02-23 13:47:53,959: INFO: _internal] 127.0.0.1 - - [23/Feb/2022 13:47:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2022-02-23 13:47:54,251: INFO: _internal] 127.0.0.1 - - [23/Feb/2022 13:47:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2022-02-23 13:49:41,258: INFO: app] Submit Page
+[2022-02-23 13:49:41,286: INFO: app] Text: Suryakumar Yadav, Deepak Chahar Ruled Out Of Three-Match T20I Series Against Sri Lanka Due To Injuries
+[2022-02-23 13:49:41,602: INFO: app] Database Connection
+[2022-02-23 13:49:41,690: INFO: all_utils] Tokenized Text: ['Suryakumar', 'Yadav', ',', 'Deepak', 'Chahar', 'Ruled', 'Out', 'Of', 'Three-Match', 'T20I', 'Series', 'Against', 'Sri', 'Lanka', 'Due', 'To', 'Injuries']
+[2022-02-23 13:49:41,747: INFO: all_utils] Preprocessed Text: suryakumar yadav , deepak chahar rule three-match t20i seri sri lanka due injuri
+[2022-02-23 13:49:41,795: INFO: app] Prediction: ['sport']
+[2022-02-23 13:49:41,796: INFO: app] rendering welcome.html
+[2022-02-23 13:49:41,833: INFO: _internal] 127.0.0.1 - - [23/Feb/2022 13:49:41] "POST /submit HTTP/1.1" 200 -
+[2022-02-23 13:49:41,959: INFO: _internal] 127.0.0.1 - - [23/Feb/2022 13:49:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
