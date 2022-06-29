@@ -58,7 +58,7 @@ python app.py
 <br>
 
 ## Authors
-Umang Tank - [portfolio](https://umangtank.herokuapp.com/) ... [Linkedin](https://www.linkedin.com/in/umangtank)
+Umang Tank - [portfolio](https://umangtank.me/) ... [Linkedin](https://www.linkedin.com/in/umangtank)
 
 ## If you like this project, please do give the star. If you have any suggestions or issues, please drop me a message.
 
